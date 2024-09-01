@@ -1,0 +1,36 @@
+/*Deixa o menu com o fundo cinza*/
+nav{
+    background-color: grey;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 100px;
+    text-decoration: none;
+}
+/*Quando passar o mouse o fundo vai ficar preto*/
+nav li a:hover {
+    background-color: #111;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(170, 170, 170);
+    font-size: 70px;
+}
+
